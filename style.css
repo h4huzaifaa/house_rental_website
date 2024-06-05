@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: "Reddit Sans", sans-serif;
+}
+.topnav{
+    background: #fc456a;
+}
+.sides p{
+    color: white;
+    font-size: 15px;
+    margin-top: 18px;
+}
+.sides p span{
+    color:  #4e4e4e;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 18px;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sides .fa-brands{
+  font-size: 30px;
+margin: 17px 10px;
+cursor: pointer;
+}
+.inner-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.nav-sides{
+    display: flex;
+}
+.nav-sides h2{
+  margin-top: 20px;
+    font-weight: 900;
+}
+.nav-sides h2 span{
+    color: #fd7792;
+}
+.nav-sides a{
+    margin: 30px 20px;
+    text-decoration: none;
+    color: rgba(44, 43, 43, 0.68);
+}
+.nav-sides a:hover{
+    border-bottom: 2px solid #fc456a;
+}
+.section1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1681997951882-6e5fe4182e1b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+    position: relative;
+
+    /* filter: grayscale(50%); */
+}
+.inner-father{
+margin-left: 100px;
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.sec1-child{
+width: 45%;
+
+}
+.sec1-child h3{
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+.sec1-child h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.btn1{
+    background: #fd7792;
+    border: 1px solid #fd7792;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 16px;
+    box-shadow: none !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.btn1:hover{
+    border: 1px solid #fd7792;
+    background-color: transparent;
+color: #fd7792;
+transition: 0.5s;
+}
+.btn2{
+    background: #f3f3f3;
+    border: 1px solid #fff3f5;
+    border-radius: 5px;
+    color: #0a0a0a;
+    padding: 12px 16px;
+    box-shadow: none !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.btn2:hover{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+color: #ffffff;
+transition: 0.5s;
+}
+.form h2{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+.form-box{
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #fff;
+}
+.form-box h2{
+    font-family: "Playfair Display", serif;
+    color:black;
+    text-align: center;
+}
+.inps{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px ;
+    border-radius: 5px;
+    border: none;
+
+}
+.inps2{
+   background-color: #f2f2f2;
+    
+}
+.three-cards{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+.cards{
+    border: 10px solid rgb(255, 255, 255);
+    margin: 50px 30px;
+    box-shadow: 3px 3px 5px rgb(151, 148, 148) ;
+}
+.cards img{
+    width: 100%;
+}
+.cards h2{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+.great{
+    margin-top:35px ;
+}
+.cards p{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.cards button{
+margin: 8px 110px;
+}
+.apartment-room p{
+    font-family: "Playfair Display", serif;
+background-color: #c3c4c5;
+font-size: 70px;
+text-align: center;
+padding: 50px;
+}
+.beds-and-text{
+    display: flex;
+    width: 80%;
+
+    margin: auto;
+}
+.beds{
+    border: 5px solid #41443b;
+    box-shadow: 5px 5px 4px rgb(151, 148, 148) ;
+    margin: 0px 10px;
+    width: 33%;
+}
+.beds img{
+    width: 100%;
+}
+.star1{
+    margin-left: 145px;
+}
+.beds i{
+    color:	#ffd900;
+}
+.beds h2{
+font-family: "Playfair Display", serif;
+text-align: center;
+}
+.beds p{
+text-align: center;
+font-weight: bold;
+}
+.beds p span{
+    color: gray;
+}
+.beds-and-text :hover{
+    background-color: #fa7c96;
+    color: white; 
+}
+.section3 h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+font-size: 60px;
+font-weight: 500;
+}
+/* <!-- moveable cards start here --> */
+body{
+    background-color:#eee;
+}
+
+.card{
+    
+    border:none;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:#ffd900;
+}
+/* cards are done here */
+/* <!-- offer section start now --> */
+.img-offers{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.offers{
+    width: 50%;
+    margin: 15px ;
+
+}
+.photo img{
+    width: 100%;
+}
+.photo h1{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    font-size: 33px;
+    font-weight: 500;
+    margin-top: 30px; 
+}
+.photo p{
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.offs8 h1{
+font-family: "Playfair Display", serif;
+ text-align: left;
+} 
+.offs8 p{
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+}
+.inner-chids2{
+    width: 50%;
+    margin: 10px;
+}
+.ions-text{
+    display: flex;
+}
+.noth i{
+    padding: 20px;
+    font-size: 30px;
+    background: #fa7c96;
+    border: none;
+    border-radius: 100%;
+    margin-top: 40px;
+
+}
+.noth h1,p{
+    margin-left: 10px;
+}
+/* <!-- offer section start now --> */
+
+/* <!-- IMG IN BG SEC START --> */
+.sec5{
+    background-image: url(f2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+   
+    
+}
+.sec5 h1{
+    font-family: "Playfair Display", serif;
+text-align: center;
+font-size: 50px;
+color: white;
+position: relative;
+top : 80px;
+}
+.sec5 p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.bbttn{
+margin-top: 85px;
+}
+.bbtn1{
+    margin-left: 650px;
+}
+.sec6 h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Playfair Display", serif;
+font-size: 60px;
+font-weight: 500;   
+}
+.sec6 p{
+    text-align: center;
+    color: #fc456a;
+    font-weight: bold;
+}
+.and-text{
+    display: flex;
+    width: 80%;
+
+    margin: auto;
+}
+.ppots{
+    border: 5px solid #41443b;
+    box-shadow: 5px 5px 4px rgb(151, 148, 148) ;
+    margin: 0px 10px;
+    width: 33%;
+}
+.ppots img{
+    width: 100%;
+}
+.ppots h2{
+font-size: 25px;
+text-align: center;
+font-family: "Playfair Display", serif;
+
+}
+.ppots p{
+text-align: center;
+color: #fc456a;
+font-weight: bold;
+}
+.ppots .para{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
